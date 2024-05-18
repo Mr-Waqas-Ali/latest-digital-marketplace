@@ -1,13 +1,17 @@
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
 	images: {
-		domains: [
-			'localhost',
-			'digital-marketplace-gamma-beige.vercel.app',
+		remotePatterns: [
+			{
+				protocol: "http",
+				hostname: "localhost",
+			},
+			{
+				protocol: "https",
+				hostname: "digitalmarketplace-wa.netlify.app",
+			},
 		],
 	},
-}
+};
 
 module.exports = nextConfig;
