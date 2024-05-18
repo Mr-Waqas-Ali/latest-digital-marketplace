@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL('https://latest-digital-marketplace.vercel.app'),
+    metadataBase: new URL('https://digitalmarketplace-wa.netlify.app'),
     ...(noIndex && {
       robots: {
         index: false,
