@@ -8,7 +8,7 @@ const nextConfig = {
 			},
 			{
 				protocol: "https",
-				hostname: "latest-digital-marketplace.vercel.app",
+				hostname: "digitalmarketplace-wa.netlify.app",
 			},
 		],
 	},
