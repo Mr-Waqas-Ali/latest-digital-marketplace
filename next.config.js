@@ -7,8 +7,8 @@ const nextConfig = {
 				hostname: "localhost",
 			},
 			{
-				protocol: "https",
-				hostname: "digitalmarketplace-wa.netlify.app",
+				protocol: "http",
+				hostname: "664b38d1a3827c7551c91359--polite-semifreddo-dd7aaf.netlify.app",
 			},
 		],
 	},

@@ -27,8 +27,8 @@ export function formatPrice(
 }
 
 export function constructMetadata({
-  title = 'DigitalHippo - the marketplace for digital assets',
-  description = 'DigitalHippo is an open-source marketplace for high-quality digital goods.',
+  title = 'DigitalMarketplace - the marketplace for digital assets',
+  description = 'DigitalMarketplace is an open-source marketplace for high-quality digital goods.',
   image = '/thumbnail.png',
   icons = '/favicon.ico',
   noIndex = false,
@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL('https://digitalmarketplace-wa.netlify.app'),
+    metadataBase: new URL('http://664b38d1a3827c7551c91359--polite-semifreddo-dd7aaf.netlify.app'),
     ...(noIndex && {
       robots: {
         index: false,
