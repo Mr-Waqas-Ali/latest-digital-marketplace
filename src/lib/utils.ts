@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@joshtriedcoding',
     },
     icons,
-    metadataBase: new URL('http://664b38d1a3827c7551c91359--polite-semifreddo-dd7aaf.netlify.app'),
+    metadataBase: new URL('https://latest-digital-marketplace.vercel.app'),
     ...(noIndex && {
       robots: {
         index: false,

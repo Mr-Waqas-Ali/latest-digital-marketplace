@@ -7,8 +7,8 @@ const nextConfig = {
 				hostname: "localhost",
 			},
 			{
-				protocol: "http",
-				hostname: "664b38d1a3827c7551c91359--polite-semifreddo-dd7aaf.netlify.app",
+				protocol: "https",
+				hostname: "latest-digital-marketplace.vercel.app",
 			},
 		],
 	},
