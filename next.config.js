@@ -12,6 +12,7 @@ const nextConfig = {
 			},
 		],
 	},
+	productionBrowserSourceMaps: true, // Enable detailed error reporting in production
 };
 
 module.exports = nextConfig;
