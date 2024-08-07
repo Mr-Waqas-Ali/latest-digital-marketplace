@@ -1,8 +1,17 @@
-// next.config.js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  productionBrowserSourceMaps: true,
-  // other configurations
+	images: {
+		remotePatterns: [
+			{
+				protocol: "http",
+				hostname: "localhost",
+			},
+			{
+				protocol: "https",
+				hostname: "latest-digital-marketplace.vercel.app",
+			},
+		],
+	},
 };
 
 module.exports = nextConfig;
